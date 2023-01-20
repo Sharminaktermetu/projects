@@ -43,14 +43,22 @@
     height:70px;
 }
 #work-process{
-    background-image: url(image/Untitled\ design\ \(3\).png);
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    
-}
-#work-process:hover{
-    background-image: url(image/Untitled\ design\ \(3\).png);
+    background-image: url(image/Untitled\ design\ \(4\).png);
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
-    transition: 3s;
+    transition: 5s;
+    height: 300px;
+}
+#work-process:hover{
+    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 5s;
+}
+.img-wrapper{
+  height: 600px;
+  
+}
+.another{
+    text-align: center;
 }
